@@ -19,7 +19,7 @@ class PageHome:
             button_search.click()
 
         except:
-            print("No se encuentra el elemento")
+            print("Elemento no encontrado")
 
     def click_sing_in(self):
         try:
@@ -27,4 +27,4 @@ class PageHome:
             button_sing_in.click()
 
         except:
-            print("No se encuentra el elemento")
+            print("Elemento no encontrado")
